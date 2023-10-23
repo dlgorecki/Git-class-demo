@@ -1,7 +1,12 @@
 library(pdftools)
 library(tidyverse)
 mytext <- pdf_text(pdf = 'testpdf.pdf')
-
+###DRAKE
+#DRAKE 
+#DRAKE
+#
+#
+#D
 cat(mytext, sep = '\n', file = 'mycodebook.txt')
 
 mycodebook <- paste(readLines('mycodebook.txt'), collapse = '\n' )
